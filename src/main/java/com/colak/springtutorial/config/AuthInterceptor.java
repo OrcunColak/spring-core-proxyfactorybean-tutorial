@@ -5,7 +5,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.stereotype.Component;
 
-@Component("global_auth")
+@Component("globalAuth")
 @Slf4j
 public class AuthInterceptor implements MethodInterceptor {
 

@@ -28,7 +28,7 @@ public class AppConfig {
         // use wildcards to specify interceptors.
         // The ProxyFactoryBean will automatically find all bean objects in the container whose names start with
         // global_ during initialization.
-        proxy.setInterceptorNames("global_*");
+        proxy.setInterceptorNames("global*");
         return proxy;
     }
 }

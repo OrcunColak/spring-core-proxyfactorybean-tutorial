@@ -5,7 +5,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.stereotype.Component;
 
-@Component("global_log")
+@Component("globalLog")
 @Slf4j
 public class LogInterceptor implements MethodInterceptor {
 
